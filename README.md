@@ -1,18 +1,20 @@
 # Term Deposit Marketing
 
 ## Project Overview
-A logistics and delivery startup would like to predict customer happiness or unhappiness based on customer survey responses.  
+The client is a small startup primarily dedicated to delivering machine learning solutions within the European banking market. Its work spans a range of challenges, including fraud detection, sentiment classification, and the prediction and classification of customer intentions.
 
-In addition, they are very interested in finding which questions/features are more important when predicting a customer’s happiness and if any questions can be removed in the next survey.
+The team is focused on creating a robust machine learning system that utilizes data derived from call center interactions.
+
+Ultimately, the startup aims to enhance the success rate of customer calls regarding any product offered by its clients. To achieve this, it is developing an ever-evolving machine learning product that not only achieves high success rates but also provides interpretability, empowering their clients to make well-informed decisions.
 
 ##  Installation and Setup
 Editor Used:  Jupyter Notebook
 Python Version:  3.12.4
-Python Packages:  pandas, numpy, matplotlib, seaborn, gdown, warnings, logging, lazypredict, random, hyperopt, sklearn
+Python Packages:  pandas, numpy, matplotlib, seaborn, gdown, warnings, logging, pycaret, random, hyperopt, sklearn, duckdb, optuna, UMAP, T-SNE
 
 ## Data
 The customer survey data is in .csv format located in the link below: 
-[Survey Data link](https://drive.google.com/open?id=1KWE3J0uU_sFIJnZ74Id3FDBcejELI7FD)
+[Survey Data link](https://drive.google.com/file/d/1EW-XMnGfxn-qzGtGPa3v_C63Yqj2aGf7)
 
 Data Description:
 
