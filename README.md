@@ -117,8 +117,9 @@ After optimization recall of subscribers improved to 0.64 while maintaining prec
 
 The elbow method determined 4 to be optimal number of clusters.  
 
-<img width="567" alt="image" src="https://github.com/user-attachments/assets/ec7ef5cd-0b98-4bb1-9ffc-61572508d637" />
-<img width="811" alt="image" src="https://github.com/user-attachments/assets/b95fed4c-b688-4442-a809-e3a8d00f2a59" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/ec7ef5cd-0b98-4bb1-9ffc-61572508d637" />
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b95fed4c-b688-4442-a809-e3a8d00f2a59" />
 
 4 customer segments were identified. With 1 segment containing only 1 customer, it will be ignored for analysis.
 Common between the 3 remaining cluster are majority have education secondary or above. No personal loans or credit in default. On average have a positive balance. It approx. 3 calls to turn the customers into subscribers.
@@ -135,4 +136,6 @@ Common between the 3 remaining cluster are majority have education secondary or 
 Both T-SNE and UMAP show overlap between the two largest segments, likely due similar balances and some separation with the third group.
 
 ## Conclusion
-A predictive model was developed improving the customer subscription rate from 7% to 11%, a 57% increase.  The rate of campaigns needed per subsriber improved from 40 to 26, a 35% reduction. Three distinct groups were identified as likely customers, young/unmarried, older/married, middle-aged/college educated.  Common between the groups was a high rate of education level secondary or above, positive balances, and no credit default or personal loans.
+A predictive model was developed improving the customer subscription rate from 7% to 11%, a 57% increase.  The rate of campaigns needed per subsriber improved from 40 to 26, a 35% reduction. 
+Three distinct groups were identified as likely customers, young/unmarried, older/married, middle-aged/college educated.  
+Common between the groups was a high rate of education level secondary or above, positive balances, and no credit default or personal loans.
