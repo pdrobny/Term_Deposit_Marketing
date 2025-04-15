@@ -57,7 +57,7 @@ Data Cleaning:  The data was checked for validity and completeness and determine
 
 Data Visualation: Visualizations for exploratory data analysis intially performed using seaborn and matplotlib in python.  Tableau was later used to produce visualization from the source data.
 
-Predictive Model Evaluation and Selection:  The primary focus is to predict if a customer will subsribe. For the predictive model on the customer info features will be used.  EDA shows the dataset is highly unbalanced with only 7.2% of customer subscribing and will need rebalancing.  The rebalancing methods evaluated are random under sampler (RUS), SMOTE-ENN, and SMOTE-Tomek.  For each rebalancing method pycaret was used evaluate various classifer methods. These models were evaluated for highest F1 score to find a balance between precision and recall.
+Predictive Model Evaluation and Selection:  The primary focus is to predict if a customer will subscribe. For the predictive model on the customer info features will be used.  EDA shows the dataset is highly unbalanced with only 7.2% of customer subscribing and will need rebalancing.  The rebalancing methods evaluated are random under sampler (RUS), SMOTE-ENN, and SMOTE-Tomek.  For each rebalancing method pycaret was used evaluate various classifer methods. These models were evaluated for highest F1 score to find a balance between precision and recall.
 
 Final Model Training:  Optuna was used to optimize the hyperparameters for the Extra Trees classifier on SMOTE-ENN rebalanced data.
 
